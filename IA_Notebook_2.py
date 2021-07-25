@@ -82,7 +82,7 @@ while cost < 0.95:
     # Ej: [3, 2, 5, 2, 1, -2] con rango [0, 2] -> [2, 2, 2, 2, 1, 0]
     copy_coche_2 = np.clip(copy_coche_2, min_perturb, max_perturb)
     copy_coche_2 = np.clip(copy_coche_2, -1, 1)
-    print("Verbose:", cost)
+    # print("Verbose:", cost)
 
 
 # Anteriormente reformateamos la matriz de la imágen para
