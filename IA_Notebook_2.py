@@ -21,7 +21,7 @@ from keras.preprocessing import image
 
 # Para introducir la imágen a InceptionV3, la imagen requiere de unos requisitos
 # Cargamos la imagen con dimension 299x299 (para iv3) y la convertimos a una matriz de datos
-coche_2 = image.img_to_array(image.load_img("./img/coche_2.jpg", target_size=(299,299)))
+coche_2 = image.img_to_array(image.load_img("./img/Notebook_2/coche_2.jpg", target_size=(299,299)))
 
 # Cambiamos el rango o base, de [0-255] a [-1-1], por que
 # así espera iv3 que pases los datos de la imágen

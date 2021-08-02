@@ -1,1 +1,17 @@
 .ipynb_checkpoints/
+
+# Ignore almost 16000 pictures except first 5
+img/Notebook_5/OutputFlowers/*
+img/Notebook_5/InputFlowers/*
+
+!img/Notebook_5/OutputFlowers/image_00001.jpg
+!img/Notebook_5/OutputFlowers/image_00002.jpg
+!img/Notebook_5/OutputFlowers/image_00003.jpg
+!img/Notebook_5/OutputFlowers/image_00004.jpg
+!img/Notebook_5/OutputFlowers/image_00005.jpg
+
+!img/Notebook_5/InputFlowers/image_00001.jpg
+!img/Notebook_5/InputFlowers/image_00002.jpg
+!img/Notebook_5/InputFlowers/image_00003.jpg
+!img/Notebook_5/InputFlowers/image_00004.jpg
+!img/Notebook_5/InputFlowers/image_00005.jpg
